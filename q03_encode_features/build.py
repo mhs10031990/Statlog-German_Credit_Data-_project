@@ -8,13 +8,5 @@ from q01_load_data_and_add_column_names.build import q01_load_data_and_add_colum
 path = 'data/GermanData.csv'
 
 
-def q03_encode_features(path):
-    "write your solution here"
-    df = q01_load_data_and_add_column_names(path)
-    result = df.copy()
-    encoders = {}
-    for column in result.columns:
-        if result.dtypes[column] == np.object:
-            encoders[column] = LabelEncoder()
-            result[column] = encoders[column].fit_transform(result[column])
-    return result, encoders
+def q03_encode_features():
+    
