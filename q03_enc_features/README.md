@@ -1,4 +1,4 @@
-# Encoding Features
+# How to deal with categorical features?
 
 This assignment comprises of loading the structured data and applying some operations to it.
 
