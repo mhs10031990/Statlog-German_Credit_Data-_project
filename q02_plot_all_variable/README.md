@@ -1,4 +1,4 @@
-# Plot all Variable
+# Let's visualize all features 
 
 This assignment comprises of loading the structured data and applying some operations to it.
 
