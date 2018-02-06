@@ -1,4 +1,4 @@
-# Correlation Plot
+# How close your features are related to target variable?
 
 Correlation gives us the idea about how the are the features related to the target variable
 and gives us the idea which variables would have significant impact on target variable.
