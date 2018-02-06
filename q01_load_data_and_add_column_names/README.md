@@ -1,4 +1,4 @@
-# Loading data
+# How our data looks like ?
 
 This assignment comprises of loading the structured data and applying some operations to it.
 
