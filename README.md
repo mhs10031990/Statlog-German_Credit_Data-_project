@@ -27,4 +27,10 @@ Note : DATA attribute Information is given in the below link
 
 [German data](https://raw.githubusercontent.com/commit-live-students/Statlog-German_Credit_Data-_project/master/data/german.doc)
 
+## Pre-requisites
+- Working knowledge of Pandas, Numpy
+- How to perform feature engineering and feature selection
+- Able to perform visualization.
+- Working knowledge of algorithms such as decision trees and logistic regression
+
 
