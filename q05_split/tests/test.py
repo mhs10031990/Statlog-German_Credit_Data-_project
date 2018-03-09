@@ -3,7 +3,7 @@ import sys,os
 sys.path.append(os.path.join(os.path.dirname(os.curdir)))
 from unittest import TestCase
 from ..build import q05_split
-from inspect import getargspec
+from inspect import getfullargspec
 
 path = 'data/GermanData.csv'
 df = q05_split(path, test_size=0.20, random_state=9)
@@ -11,11 +11,11 @@ df = q05_split(path, test_size=0.20, random_state=9)
 
 class Test_splits(TestCase):
     def test_args(self):
-        arg = getargspec(q05_split).args
+        arg = getfullargspec(q05_split).args
         self.assertEqual(len(arg), 3, "Expected argument(s) %d, Given %d" % (3, len(arg)))
 
     def test_defaults(self):
-        args = getargspec(q05_split)
+        args = getfullargspec(q05_split)
         self.assertEqual(args[3], ((0.20,9)), "Expected default values do not match given default values")
 
     def test_returns_X_train(self):
